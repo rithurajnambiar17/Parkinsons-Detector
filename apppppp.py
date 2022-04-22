@@ -13,7 +13,7 @@ def student():
 
 @app.route('/result',methods = ['POST', 'GET'])
 def result():
-   if request.method == 'POST':
+   if request.method == 'GET':
       #Add all variables in the same way
       Fo = float(request.form.get('MDVP:Fo(Hz)'))
       Fhi = float(request.form.get('MDVP:Fhi(Hz)'))

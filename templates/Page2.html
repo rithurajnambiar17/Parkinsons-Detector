@@ -14,9 +14,11 @@
         <div class="name">
             <h1>Parkinson's Disease</h1>
         </div>
+
+        <!-- Create one form instead of three seperate groups -->
         <div class="form">
             <div class="form-group">
-                <form method="get">
+                <form action = "{{url_for('result')}}" method ="POST">
                     <input class="input-field" type="text" placeholder="MDVP:Fo(Hz)" name="MDVP:Fo(Hz)" />
                     <input class="input-field" type="text" placeholder="MDVP:Fhi(Hz)" name="MDVP:Fhi(Hz)" />
                     <input class="input-field" type="text" placeholder="MDVP:Flo(Hz)" name="MDVP:Flo(Hz)" />
