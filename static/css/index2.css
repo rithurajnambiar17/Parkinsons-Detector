@@ -11,15 +11,15 @@ body{
  .form{
      border: 2px solid black;
      border-radius: 4rem;
-     margin: 100px 310px;
-     height: 60vh;
-     width: 57vw;
+     margin: 100px 100px;
+     height: 56vh;
+     width: 77vw;
  }
   .form-group{
   display: flex;
     position: absolute;
-    top: 60%;
-    left: 34%;
+    top: 61%;
+    left: 24%;
     transform: translate(-50%, -50%);
   }
   
@@ -39,6 +39,7 @@ body{
     font-weight: 100;
     letter-spacing: 4px;
     margin-left: 10px;
+    margin-top: auto;
   }
   input .input-field{
       border: 1px solid black;
@@ -73,6 +74,11 @@ body{
       display: flex;
       position: absolute;
       top: 32%;
-      left: 55%;
+      left: 34%;
   }
-  
+  .form-group3{
+    display: flex;
+    position: absolute;
+    top: 32%;
+    left: 55%;
+}
