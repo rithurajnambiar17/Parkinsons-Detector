@@ -19,7 +19,7 @@ def result():
       Fhi = float(request.form.get('MDVP:Fhi(Hz)'))
       Flo = float(request.form.get('MDVP:Flo(Hz)'))
       JitterPercent = float(request.form.get('MDVP:Jitter(%)'))
-      Jitter = float(request.form.get('MDVP:Jitter'))
+      Jitter = float(request.form.get('MDVP:Jitter(Abs)'))
       RAP = float(request.form.get('MDVP:RAP'))
       PPQ = float(request.form.get('MDVP:PPQ'))
       DDP = float(request.form.get('Jitter:DDP'))
