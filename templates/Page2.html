@@ -15,7 +15,7 @@
             <h1>Parkinson's Disease</h1>
         </div>
         <div class="form">
-            <form method="get">
+            <form action = "{{url_for('result')}}" method = "POST">
                     <div class="form-group">
                     <input class="input-field" type="text" placeholder="MDVP:Fo(Hz)" name="MDVP:Fo(Hz)" />
                     <input class="input-field" type="text" placeholder="MDVP:Fhi(Hz)" name="MDVP:Fhi(Hz)" />
@@ -46,7 +46,7 @@
                         <input class="input-field" type="text" placeholder="RPDE" name="RPDE" />
                         <input class="input-field" type="text" placeholder="DFA" name="DFA" />
                         <input class="input-field" type="text" placeholder="HNR" name="HNR" />
-                        <input class="input-field" type="text" placeholder="Spread1" name="Spread1 "/>
+                        <input class="input-field" type="text" placeholder="Spread1" name="Spread1"/>
                         <input class="input-field" type="text" placeholder="Spread2" name="Spread2" />
  
                 </div>

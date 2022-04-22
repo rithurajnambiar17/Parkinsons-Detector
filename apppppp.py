@@ -13,7 +13,7 @@ def student():
 
 @app.route('/result',methods = ['POST', 'GET'])
 def result():
-   if request.method == 'GET':
+   if request.method == 'POST':
       #Add all variables in the same way
       Fo = float(request.form.get('MDVP:Fo(Hz)'))
       Fhi = float(request.form.get('MDVP:Fhi(Hz)'))
@@ -33,8 +33,9 @@ def result():
       HNR =  float(request.form.get('HNR'))
       RPDE =  float(request.form.get('RPDE'))
       DFA =  float(request.form.get('DFA'))
-      spread1 =  float(request.form.get('spread1'))
-      spread2 =  float(request.form.get('spread2'))
+
+      spread1 =  float(request.form.get('Spread1'))
+      spread2 =  float(request.form.get('Spread2'))
       D2 =  float(request.form.get('D2'))
       PPE =  float(request.form.get('PPE'))
         
