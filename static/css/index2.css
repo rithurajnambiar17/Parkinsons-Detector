@@ -1,0 +1,86 @@
+body{
+    font-family: "Helvetica Neue", "Open sans", sans-serif;
+    background-color: gray;
+    background-image: -webkit-linear-gradient(top left, #a802e0, #f7676a);
+    color: white;
+  }
+ .name h1{
+     margin: 50px 520px;
+     font-size: 3rem;
+ } 
+ .form{
+     display: flex;
+     
+     border: 2px solid black;
+     border-radius: 4rem;
+     margin: 100px 100px;
+     height: 60vh;
+     width: 77vw;
+ }
+  .form-group{
+  
+    position: absolute;
+    top: 63%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+  }
+  
+  form input{
+    width: 300px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.0em;
+    padding: 10px;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 4px;
+    font-weight: 300;
+    outline: none;
+    font-weight: 100;
+    letter-spacing: 4px;
+    margin-left: 10px;
+    margin-top: auto;
+  }
+  input .input-field{
+      border: 1px solid black;
+  }
+  form input:hover, form input:focus{
+    border-bottom: 2px solid rgba(255, 255, 255, .9);
+    border-radius: 5%;
+  }
+  
+  form input::placeholder{
+    color: #d3d1d3;
+    font-weight: 100;
+    letter-spacing: 4px;
+    margin-left: 50px;
+  }
+  
+  input[type="submit"]{
+      margin:40px auto;
+    border: 1px solid white;
+    display: block;
+    width: 100px;
+    
+  }
+  
+  input[type="submit"]:hover{
+    border: 1px solid black;
+    color: black;
+    display: block;
+    width: 100px;
+  }
+  .form-group2{
+      
+      position: absolute;
+      top: 34%;
+      left: 34%;
+  }
+  .form-group3{
+    
+    position: absolute;
+    top: 34%;
+    left: 55%;
+}
